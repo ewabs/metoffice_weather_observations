@@ -131,7 +131,7 @@ if __name__ == '__main__':
     # can be turned off anytime,
     # then main() takes existing metoffice_response.json as an argument
 
-    MetofficeResponse._get_weather_data()
+    #MetofficeResponse._get_weather_data()
 
     with open('metoffice_response.json', 'r') as fp:
         raw_data = json.load(fp, object_pairs_hook=OrderedDict)
