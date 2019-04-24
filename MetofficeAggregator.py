@@ -15,7 +15,7 @@ class MetofficeResponse:
     @staticmethod
     def _get_weather_data():
 
-        API_KEY = 'c6162edb-39b6-4e6e-9f54-2020b03e9fc8'
+        API_KEY = ''
         METAOFFICE_URL = f"http://datapoint.metoffice.gov.uk/public/data/val/wxobs/all/json/3772?res=hourly&key={API_KEY}"
         weather_response = requests.get(url=METAOFFICE_URL)
 
