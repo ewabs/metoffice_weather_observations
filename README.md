@@ -14,5 +14,5 @@ No enviroment, for executing recuired:
 - requests
 
 Testing
-Unit tests for main() class from MetofficeAggregator class
+-Unit tests for main() function from MetofficeAggregator class
 
